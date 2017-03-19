@@ -11,14 +11,13 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
-    "hubot-line": "0.0.6",
+    "hubot-line-messaging": "^0.6.0",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.0",
-    "hubot-line-message-api": "0,0,1"
+    "hubot-shipit": "^0.2.0"
   },
   "engines": {
     "node": "0.10.x",
