@@ -379,7 +379,7 @@ vote [TITLE] [ITEM1],[ITEM2],[ITEM3] -- Create vote template
             null #なせかメッセージが下から読まれる
             robot.send {room: "#{IRKIT_OWNER_01}"}, "\n最高気温は#{weathers[0]['maxtemp']}度だそうです。" if weathers[0]['maxtemp']?
             robot.send {room: "#{IRKIT_OWNER_01}"}, "\n明日は#{weathers[1]['telop']}になる予報です。"
-            robot.send {room: "#{IRKIT_OWNER_01}"}, "おはようございます。今日の天気は#{weathers[0]['telop']}です。"
+            robot.send {room: "#{IRKIT_OWNER_01}"}, "おはようございます。 今日の天気は#{weathers[0]['telop']}です。"
       , () ->
         #tooHotCallback
         robot.http(IRKIT_MESSAGE_API)
