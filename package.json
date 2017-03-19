@@ -22,6 +22,6 @@
     "line-message-api": "file:./hubot-line-message-api"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "4.4.4"
   }
 }
