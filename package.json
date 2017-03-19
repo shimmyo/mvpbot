@@ -21,7 +21,8 @@
     "cheerio-httpcli": "^0.6.11",
     "cheerio": "^0.22.0",
     "cron": "^1.2.1",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "line-message-api": "file:./hubot-line-message-api"
   },
   "engines": {
     "node": "0.10.x",
